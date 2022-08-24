@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+    <about>
+        <name>Isabel Hadziomerovic</name>
+        <title>Software Developer</title>
+        <address>
+            <number>352</number>
+            <street>Acacia ave</street>
+            <postal-code>K1M0L9</postal-code>
+            <city>Ottawa</city>
+            <province>Ontario</province>
+            <country>Canada</country>
+        </address>
+        <phone type="cell">+1 (613) 859-0232</phone>
+        <websites>
+            <linkedin>https://www.linkedin.com/in/isabel-hadziomerovic-715b5417a/</linkedin>
+            <github>https://github.com/Izzy-Hadzi</github>
+        </websites>
+    </about>
+    <educations>
+        <education>
+            <school>McGill University</school>
+            <city>Montreal</city>
+            <country>Canada</country>
+            <degree>BSc, majoring in Computer Science and Biology</degree>
+            <start-date>
+                <year>2017</year>
+                <month>September</month>
+            </start-date>
+            <end-date>
+                <year>2021</year>
+                <month>May</month>
+            </end-date>
+            <grade>
+                <attained>3.48</attained>
+                <maximum>4.0</maximum>
+            </grade>
+        </education>
+        <education>
+            <school>Neuchatel Junior College</school>
+            <city>Neuchatel</city>
+            <country>Switzerland</country>
+            <degree>Ontario High School Diploma</degree>
+            <start-date>
+                <year>2016</year>
+                <month>September</month>
+            </start-date>
+            <end-date>
+                <year>2017</year>
+                <month>June</month>
+            </end-date>
+            <grade>
+                <attained>94</attained>
+                <maximum>100</maximum>
+            </grade>
+        </education>
+    </educations>
+    <experiences>
+        <experience>
+            <title>Associate XML Developer</title>
+            <start-date>
+                <year>2021</year>
+                <month>August</month>
+            </start-date>
+            <description>
+                <task>Working at various steps in the publishing pipeline with the DITA-OT and custom post processing to transform DITA to various formats (HTML, Microsoft Word, PDF, etc)</task>
+                <task>Creating suite of content and publishing tests for a product using XQuery through BaseX, including an implementation of a 
+                diff algorithm to find the exact location of the first instance of a difference between the text of two XML documents.</task>
+                <task>Creating and automating continuous integration tests for the publishing workflow</task>
+            </description>
+        </experience>
+        <experience>
+            <title>Research Assistant</title>
+            <start-date>
+                <year>2019</year>
+                <month>May</month>
+            </start-date>
+            <end-date>
+                <year>2019</year>
+                <month>August</month>
+            </end-date>
+            <description>
+                <task>Assisting research in the neuro-interventional department.</task> 
+                <task>Included gathering data and data analysis for a paper published in Fall 2021 
+                (https://journals.sagepub.com/doi/10.1177/15910199221077588?utm_source=selligent&amp;utm_medium=email&amp;utm_campaign=&amp;utm_content=&amp;utm_term=&amp;M_BT=856908276001039 )</task>
+            </description>
+        </experience>
+        <experience>
+            <title>Research Assistant</title>
+            <start-date>
+                <year>2018</year>
+                <month>May</month>
+            </start-date>
+            <end-date>
+                <year>2018</year>
+                <month>August</month>
+            </end-date>
+            <description>
+                <task>Responsible for aiding any current research projects in the radiology department, such as the applications of 3D printing in medicine, breast cancer survivor satisfaction and studying cardiac myocardium thickness. </task>
+                <task>Tasked with coordinating the annual Research Day for all staff and students of the Faculty of Medicine at OttawaU. </task>
+                <task>Assisted with administrative tasks such handling and delivering documents throughout the hospital and other clerical duties.</task>
+            </description>
+        </experience>
+        <experience>
+            <title>Research Assistant</title>
+            <start-date>
+                <year>2017</year>
+                <month>May</month>
+            </start-date>
+            <end-date>
+                <year>2017</year>
+                <month>August</month>
+            </end-date>
+            <description>
+                <task>Responsible for aiding any current research projects in the radiology department, such as the applications of 3D printing in medicine, breast cancer survivor satisfaction and studying cardiac myocardium thickness. </task>
+                <task>Tasked with coordinating the annual Research Day for all staff and students of the Faculty of Medicine at OttawaU. </task>
+                <task>Assisted with administrative tasks such handling and delivering documents throughout the hospital and other clerical duties.</task>
+            </description>
+        </experience>
+    </experiences>
+    <projects>
+        <project>
+            <title>Recipe Book</title>
+            <start-date>
+                <year>2022</year>
+                <month>January</month>
+            </start-date>
+            <description>
+                Using XSLT 3.0 to transform recipes stored in XML files into a website to demonstrate understanding of HTML, CSS, XSLT and information architectures.
+            </description>
+        </project>
+        <project>
+            <title>Probabilistic Genome Alignment</title>
+            <start-date>
+                <year>2020</year>
+                <month>September</month>
+            </start-date>
+            <end-date>
+                <year>2020</year>
+                <month>December</month>
+            </end-date>
+            <description>
+                Project coded using Python to best align two sequences of nucleotides, one probabilistic and the other fixed. Successfully implemented an algorithm similar to the basic local alignment search tool.
+            </description>
+        </project>
+        <project>
+            <title>Pentago Twist</title>
+            <start-date>
+                <year>2021</year>
+                <month>February</month>
+            </start-date>
+            <end-date>
+                <year>2021</year>
+                <month>April</month>
+            </end-date>
+            <description>
+                Java Project implementing a MCTS to solve a high-complexity game.
+            </description>
+        </project>
+    </projects>
+    <skills>
+        <skill type="programming">Python</skill>
+        <skill type="programming">XSLT</skill>
+        <skill type="tool">DITA-OT</skill>
+        <skill type="tool">Oxygen XML Editor</skill>
+        <skill type="tool">Visual Studio Code</skill>
+        <skill type="tool">AWS EC2</skill>
+        <skill type="tool">Apache Ant</skill>
+        <skill type="tool">Maven</skill>
+        <skill type="tool">Git/Github</skill>
+        <skill type="programming">Java</skill>
+        <skill type="programming">Bash</skill>
+        <skill type="programming">HTML</skill>
+        <skill type="programming">XQuery</skill>
+        <skill type="programming">XML</skill>
+        <skill type="programming">SQL</skill>
+        <skill type="programming">CSS</skill>
+        <skill type="tool">CircleCI</skill>
+        <skill type="tool">Make</skill>
+        <skill type="programming">YAML</skill>
+    </skills>
+    <awards>
+        <award>
+            <title>Excellence Bursary for Computer Science, Computer Engineering and Computer Construction, and Electrical, Electronic and Communications Engineering</title>
+            <year>2021</year>
+            <organization>Ministere de l'Enseignement superieur</organization>
+        </award>
+        <award>
+            <title>Physics Award</title>
+            <year>2017</year>
+            <organization>Neuchatel Junior College</organization>
+        </award>
+        <award>
+            <title>Chemistry Award</title>
+            <year>2017</year>
+            <organization>Neuchatel Junior College</organization>
+        </award>
+        <award>
+            <title>Calculus Award</title>
+            <year>2017</year>
+            <organization>Neuchatel Junior College</organization>
+        </award>
+    </awards>
+    <languages>
+        <language>English</language>
+        <language>French</language>
+    </languages>
+</resume>
