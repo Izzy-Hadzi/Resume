@@ -1,4 +1,41 @@
 body {
-    background-color: darkslategray;
-    color:gainsboro;
+    background-color: whitesmoke;
+    color: black;
+}
+.header{
+    background-color: teal;
+    padding: 1.5rem 3rem;
+    text-align: center;
+    color: aliceblue;
+}
+.name{
+    font-size: 3rem;
+    margin: .5rem;
+}
+.title{
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+section {
+    margin: 0 auto;
+    padding: 0 0;
+    border: 0.2rem solid lightblue;
+    margin-right: 25%;
+}
+aside{
+    float:right;
+    border: .2rem solid lightcoral;
+    padding-left: 75%;
+}
+p{
+    margin: 0 0;
+}
+h4{
+    margin-bottom: 0;
+}
+footer{
+    border: 1rem solid blueviolet;
 }

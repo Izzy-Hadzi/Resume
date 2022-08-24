@@ -10,9 +10,12 @@
 
     <xsl:template match="resume">
         <html>
-            <link rel="stylesheet" href="../Resume/css/styling_resume.css"/>
+            <link rel="stylesheet" href="../css/styling_resume.css"/>
             <body>
-                <h1><xsl:apply-templates select="about/name"/></h1>
+                <div class="header">
+                <h1 class="name"><xsl:apply-templates select="about/name"/></h1>
+                <h2 class="title"><xsl:apply-templates select="about/title"/></h2>
+                </div>
                 <aside><p><xsl:apply-templates select="about"/></p></aside>
                 <div/>
                 <section>
@@ -35,9 +38,18 @@
                     <xsl:apply-templates select="skills"/>
                 </section>
                 <aside>
+                    <h3 class="awards">Awards</h3>
                     <p><xsl:apply-templates select="awards"/></p>
                 </aside>
+                <aside>
+                    <h3>Languages</h3>
+                    <p><xsl:apply-templates select="languages"/></p>
+                </aside>
+                <footer>
+                    <p>This is a footer</p>
+                </footer>
             </body>
+            
        </html>
     </xsl:template>
 
@@ -46,10 +58,12 @@
             <strong>
                 <xsl:sequence select="school"></xsl:sequence>
             </strong>
-            <xsl:text> - </xsl:text>
+            <xsl:text>, </xsl:text>
             <em>
                 <xsl:sequence select="city"></xsl:sequence>, <xsl:sequence select="country"/>
             </em>
+            <xsl:text> - </xsl:text>
+            <xsl:sequence select="degree"/>
         </h4>
         <p>
             <em>
